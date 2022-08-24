@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+}
+
+.wrapper {
+    width: 85%;
+    margin: auto;
+}
+
+.header {
+    margin: 20px 0;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logotext {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.main {
+    background-image: url(2.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 110px;
+    border-bottom: 2px solid #00a5fd;
+}
+
+.paragrapf {
+    color: white;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.klick {
+    color: white;
+    font-size: 25px;
+    margin-top: 100px;
+    padding: 10px 0;
+    border: 2px solid #00a5fd;
+    text-align: center;
+}
+
+.klick:hover {
+    color: white;
+    background-color: #00a5fd;
+}
